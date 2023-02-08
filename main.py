@@ -16,10 +16,12 @@ yB = int(input("What is the yB value?:"))
 xC = int(input("What is the xC value?:"))
 yC = int(input("What is the yC value?:"))
 
+# Calculating The Side Lengths
 AB = dist(xA, yA, xB, yB)
 AC = dist(xA, yA, xC, yC)
 BC = dist(xB, yB, xC, yC)
 
+# Calculating The Perimeter
 perimeter = AB + AC + BC
 
 
